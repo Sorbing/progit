@@ -1,10 +1,10 @@
 <?php
-class OtherClassOnMaster
+class Memo
 {
   public function __construct() {}
 
-  public function getConflictList()
+  public function getName()
   {
-    return 'conflicted';
+    return 'name';
   }
 }
