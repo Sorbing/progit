@@ -1,9 +1,9 @@
 <?php
 class MemoController
 {
-  public function __construct()
+  public function __construct($name)
   {
-    $this->name = 'Stas';
+    $this->name = $name;
   }
 
 }
