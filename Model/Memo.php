@@ -1,5 +1,4 @@
 <?php
-
 class Memo
 {
   public function __construct() {}
